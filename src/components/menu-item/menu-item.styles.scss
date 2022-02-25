@@ -1,0 +1,39 @@
+.menu-item {
+  min-width: 1%;
+  height: 80px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid black;
+
+  &:first-child {
+    margin-left: 400px;
+  }
+
+  &:last-child {
+    margin-left: 0px;
+  }
+
+  .content {
+    height: 60px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid black;
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 6px;
+      font-size: 18px;
+      color: #4a4a4a;
+    }
+
+    .subtitle {
+      font-weight: lighter;
+      font-size: 16px;
+    }
+  }
+}
